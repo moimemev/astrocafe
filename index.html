@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>중미산천문대</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- 직접 작성한 css -->
+    <link rel="stylesheet" href="css/common.css">
+
+    <!-- 직접 작성한 js -->
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header id="header">
+            <div class="inner">
+                <h1 class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="중미산천문대">
+                    </a>
+                </h1>
+
+                <nav class="gnb_wrap">
+                    <ul id="gnb">
+                        <li>
+                            <a href="#" class="depth1">천문대 소개</a>
+                            <div class="depth_wrap">
+                                <ul class="depth2">
+                                    <li><a href="#">인사말</a></li>
+                                    <li><a href="#">시설안내</a></li>
+                                    <li><a href="#">오시는길</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="depth1">관람</a>
+                            <div class="depth_wrap">
+                                <ul class="depth2">
+                                    <li><a href="#">운영프로그램</a></li>
+                                    <li><a href="#">관람예약</a></li>
+                                    <li><a href="#">예약확인·취소</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="depth1">소식알림</a>
+                            <div class="depth_wrap">
+                                <ul class="depth2">
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">이달의 관측대상</a></li>
+                                    <li><a href="#">재관측안내</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="depth1">커뮤니티</a>
+                            <div class="depth_wrap">
+                                <ul class="depth2">
+                                    <li><a href="#">자주묻는 질문</a></li>
+                                    <li><a href="#">온라인 문의</a></li>
+                                    <li><a href="#">관람후기</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- 헤더 유틸 -->
+                <div class="util">
+                    <a href="#" class="sch"><span class="hidden">검색</span></a>
+                    <a href="#" class="login"><span class="hidden">로그인</span></a>
+                </div>
+            </div>
+        </header>                   
+        <div id="main_slide_wrap">
+            <!-- 스와이퍼 슬라이드 -->
+            <div class="swiper" id="main_slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!-- 슬라이드 이미지 -->
+                        <img src="images/main_slide_bg1.jpg" alt="">
+
+                        <!-- 슬라읻 텍스트  -->
+                       <div class="slide_inner">
+                            <div class="txt_box">
+                                <p class="p1">
+                                    별이 보고 싶을 땐<br>
+                                    중미산 천문대
+                                </p>
+                                <p class="p2">
+                                    수도권에서 가장 많은 별들을 볼 수 있는 곳
+                                </p>
+                            </div> 
+                       </div>                       
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- 슬라이드 이미지 -->
+                        <img src="images/main_slide_bg1.jpg" alt="">
+
+                        <!-- 슬라이드 텍스트  -->
+                       <div class="slide_inner">
+                            <div class="txt_box">
+                                <p class="p1">
+                                    가족, 연인과 함께<br>
+                                    별빛 축제에 참가하세요!
+                                </p>
+                                <p class="p2">
+                                    수도권에서 가장 많은 별들을 볼 수 있는 곳
+                                </p>
+                            </div> 
+                       </div>                       
+                    </div>
+                </div>
+                
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <!-- 스와이퍼 슬라이드 끝 -->
+
+            <!-- 단체예약 신청 -->
+            <div class="in">                
+                <a href="#" class="reserv">단체예약 신청</a>
+            </div>
+        </div>
+
+        <main>
+            <div class="inner">
+                <section id="program">
+                    <header class="title">
+                        <h2>프로그램 안내</h2>
+                        <p>중미산 천문대의 다양한 프로그램에 참여해 보세요.</p>
+                        <a href="#" class="more">더보기</a>
+                    </header>
+
+                    <!-- 배너 이미지 -->
+                    <ul class="banner_wrap">                        
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="images/banner1.png" alt="당일 별자리 여행 밤하늘 별자리에 대한 해설과 천체 망원경을 통해 다양한 천체들을 관측해요">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/banner2.png" alt="다양한 단체 프로그램 천문영상강의, 별자리 및 천체관측, 야광별자리 지도 만들기, 천체 망원경 실습, 태양흑점 관측, 태양안경 만들기, 천문 OX퀴즈, 20인 이상 신청가능"></a>
+                        </li>                        
+                    </ul>
+
+                </section>
+                <div class="sec_wrap">
+                    <section id="news">
+                        <div class="news_top">
+                            <!-- 타이틀 -->
+                            <header class="title">
+                                <h2>소식알림</h2>                            
+                            </header>
+
+                            <!-- 탭메뉴 -->
+                            <ul class="tab_menu">
+                                <li><a href="#con1">공지사항</a></li>
+                                <li><a href="#con2">이달의 관측대상</a></li>
+                                <li class="on"><a href="#con3">재관측 안내</a></li>
+                            </ul>                            
+                        </div>
+                        <!-- <p class="news_desc">중미산 천문대의 생생한 소식을 전해드립니다.</p> -->
+                        <div class="tab_con">
+                            <div id="con1" class="con">
+                                <ul>
+                                    <li>
+                                        <a href="#">3월 중미산천문대 관측돔 공사 안내</a>
+                                        <span class="date">2024.05.03</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">일일 프로그램 필독사항</a>
+                                        <span class="date">2024.04.15</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">중미산천문대 도로제설상황 안내</a>
+                                        <span class="date">2024.01.06</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="con2" class="con">
+                                <ul>
+                                    <li>
+                                        <a href="#">	
+                                            중미산천문대 4월 관측대상(2024년)</a>
+                                        <span class="date">2024.04.26</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">	
+                                            중미산천문대 3월 관측대상(2024년)</a>
+                                        <span class="date">2024.02.25</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">	
+                                            중미산천문대 2월 관측대상(2024년)</a>
+                                        <span class="date">2024.01.27</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- 재관측안내 -->
+                            <div id="con3" class="con">
+                                <ul>
+                                    <li>
+                                        <a href="#">	
+                                            중미산천문대 4월 재관측안내(2024년)</a>
+                                        <span class="date">2024.04.26</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">	
+                                            중미산천문대 3월 재관측안내(2024년)</a>
+                                        <span class="date">2024.02.25</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">	
+                                            중미산천문대 2월 재관측안내(2024년)</a>
+                                        <span class="date">2024.01.27</span>
+                                    </li>
+                                </ul>
+                        </div>                        
+                    </section>
+
+                    <!-- 관람안내 -->
+                    <section id="info">
+                        <header class="title">
+                            <h2>관람안내</h2>
+                        </header>
+
+                        <div class="info_wrap">
+                            <p class="tel">0507-1319-0306 (네이버 스마트콜)</p>
+                            <dl>
+                                <dt>관람시간</dt>
+                                <dd>월요일~일요일 6:00~11:00</dd>
+                                <dt>휴관안내</dt>
+                                <dd>화요일 휴무일</dd>
+                                <dt>위치</dt>
+                                <dd>경기도 양평군 옥천면 중미산로 1268</dd>
+                            </dl>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+       
+        <!-- 푸터  -->
+        <footer id="footer">
+            <div class="top">
+                <div class="inner">
+                    <div class="links">
+                        <a href="#">천문대 소개</a>
+                        <a href="#">이용약관</a>
+                        <a href="#"><em>개인정보처리방침</em></a>
+                        <a href="#">이메일무단수집거부</a>
+                        <a href="#">사이트맵</a>
+                    </div>
+                    <div class="sns">
+                        <a href="#" class="insta"><span class="blind">중미산천문대 인스타그램</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="inner">
+                    <div class="f_logo">
+                        <span class="blind">중미산 천문대</span>
+                    </div>
+                    <div class="addr_copy">
+                        <p>
+                            경기도 양평군 옥천면 중미산로 1268<br> 
+                            대표전화 : 0507-1319-0306 (네이버 스마트콜)<br>
+                            이메일 : <a href="mailto:">jungmiastro@naver.com</a>
+                        </p>
+                        <p class="copyright">&copy; 2024 ASTROCAFE.KR ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- 퀵메뉴 -->
+        <aside class="quick_menu">
+            <h2>Quick Menu</h2>
+            <ul>
+                <li>
+                    <a href="#">                        
+                        <span class="txt_box">오시는 길</span>                    
+                    </a>
+                </li>
+                <li>
+                    <a href="#">                        
+                        <span class="txt_box">일일관람예약</span>                    
+                    </a>
+                </li>
+                <li>
+                    <a href="#">                        
+                        <span class="txt_box">이달의 관측대상</span>                    
+                    </a>
+                </li>
+                <li>
+                    <a href="#">                        
+                        <span class="txt_box">날씨확인</span>                    
+                    </a>
+                </li>
+            </ul>
+            <button type="button" class="quick_button">
+                <span>퀵메뉴 닫기</span>
+            </button>
+        </aside>
+    </div>  
+</body>
+</html>
